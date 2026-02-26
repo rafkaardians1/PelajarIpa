@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PelajarIpa</title>
+  <style>
+        .logo {float: right;
+                margin-top: -22px;}
+        .event {text-align:left;
+                 margin-top: -450px;
+                margin-left: 660px;}
+    </style>
+        <nav>
+        <a href="beranda">Beranda</a>
+        <a href="Event">Event</a>
+        <a href="Pertempuran  Pelajar IPA">Pertempuran</a>
+        <a href="Pepustakaan">Perpustakaan</a>
+        <a href="Toko">Toko</a>
+        <a href="Tentang Kami">Tentang kami</a>
+        <div class="logo">
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece Pelajar Ipa" width="70px">
+    </nav>
+    <style>
+        nav {background-color:green;
+            padding: 30px;
+        }
+        header {background-color: burlywood;
+                padding: 20px;
+
+        }
+        nav a {color: white;
+            margin: 20px; 
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .img {margin-top: 50px;
+    }
+     </style>
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+body{
+  overflow-x:hidden;
+}
+.Pembukaan{
+  height:110vh;
+  position:relative;
+  background:url('PelajarIpaFoto/Latae.png') center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  padding-left:9%;
+  color:white;
+}
+.Pembukaan::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.3);
+}
+.Pembukaan-content{
+  z-index:2;
+  max-width:800px;
+  max-height: 500PX;
+}
+.Pembukaan h1{
+  font-size:3rem;
+  margin-bottom:20px;
+}
+.Pembukaan button{
+  padding:20px 30px;
+  border:none;
+  border-radius:30px;
+  background:white;
+  color:#2e8b57;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+.Pembukaan button:hover{
+  transform:scale(1.1);
+}
+.Awan{
+  position:absolute;
+  width:220px;
+  height:70px;
+  background:rgba(255,255,255,0.8);
+  border-radius:50px;
+  animation:KetabrakAwan 80s linear infinite;
+}
+.Awan::before{
+  content:'';
+  position:absolute;
+  width:100px;
+  height:100px;
+  background:rgba(255,255,255,0.8);
+  border-radius:50%;
+  top:-40px;
+  left:60px;
+}
+@keyframes KetabrakAwan{
+  from{transform:translateX(-300px);}
+  to{transform:translateX(120vw);}
+}
+.section{
+  padding:100px 10%;
+  text-align:center;
+}
+.section h2{
+  font-size:2rem;
+  margin-bottom:30px;
+}
+.PapanMode{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+}
+.papan{
+  width:280px;
+  padding:50px 60px;
+  background:#2dbe65;
+  border-radius:15px;
+  transition:0.3s;
+  cursor:pointer;
+  text-align: center;
+  margin-top: 50px;
+}
+.papan:hover{
+  transform:scale(1.1);
+  background:#15ce2e;
+  color: bisque;
+  box-shadow: 0 0px 25px #4CAF50;}
+.body1 {
+background-color:#225036
+}
+.Teks{
+  transition: 0,4 s;
+  cursor: pointer;
+} 
+.Teks:hover {
+  transform: scale(1.1);
+  color: #2e8b57;
+}
+a {
+  color: black;
+  font-size: 1rem;
+}
+    </style>
+  </head>
+<body>
+<section class="Pembukaan">
+  <div class="Pembukaan-content" style="border: 2px;">
+        <h1 style="font-size: 60px; font-family: 'Times New Roman', Times, serif;">Dunia Pelajar IPA</h1>
+        <p style="font-size: 30px; font-family: 'Times New Roman', Times, serif;">Baca buku panduan untuk 
+         mulai menjelajah dunia IPA kita yang misterius serta ajaib.</p>
+        <br>
+        <a href="Pepustakaan" style="margin-left: auto;"><button>Buku Panduan</button></a>
+  </div>
+    <div class="Awan" style="top:100px;"></div>
+    <div class="Awan" style="top:200px; animation-duration: 100s;"></div>
+    <div class="Awan" style="top: 300px; animation-duration: 150s;"></div>
+</section>
+  <body class="body1">
+    <section class="section">
+      <div class="Teks">
+        <h1 style="margin-top: auto;">Desa Pelajar IPA</h1>
+      </div>
+        <div class="PapanMode">
+          <a href="Event">
+            <div class="papan">
+              <h3>EVENT</h3>
+            </div>
+          </a>
+            <a href="Pertempuran  Pelajar IPA">
+              <div class="papan">
+                <h3>PERTEMPURAN</h3>
+              </div>
+            </a>
+              <a href="Pepustakaan">
+                <div class="papan">
+                  <h3>PERPUSTAKAAN</h3>
+                </div>
+              </a>
+                  <a href="Toko">
+                    <div class="papan">
+                        <h3>TOKO</h3>
+                    </div>
+                  </a>
+             </div>
+        </section>
+      </body>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>Tentang Kami PelajarIpa</tile>
+    </head>
+    <style>
+        .logo {float: right;
+                margin-top: -22px;}
+    </style>
+        <nav>
+        <a href="beranda">Beranda</a>
+        <a href="Event">Event</a>               
+        <a href="#">Pertempuran</a>
+        <a href="Pepustakaan">Perpustakaan</a>
+        <a href="Toko">Toko</a>
+        <a href="Tentang Kami">Tentang kami</a>
+        <div class="logo">
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece Pelajar Ipa" width="70px">
+    </nav>
+    <header>
+        <h1 style="text-align: center;">Tentang Kami</h1>
+    </header>
+    <style>
+        nav {background-color: rgb(126, 74, 7);
+            padding: 30px;
+        }
+        a {color: white;
+            margin: 20px; 
+            text-decoration: none;
+            font-size: 20px;
+        }
+        h1 {font-family: 'Times New Roman', Times, serif;
+    }
+        header {background-color: burlywood;
+                padding: 20px;
+
+        }
+        body {background-color:rgb(243, 234, 217);
+        }
+    </style>
+    <body>
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece Pelajar Ipa" width="200px" style="display: block; margin-left: auto; margin-right: auto;">
+        <h2 style="text-align: center;">Pelajar IPA</h2>
+        <h3 style="text-align: left;">
+            Pelajar IPA adalah sebuah komunitas yang membahas serta mempelajari ilmu pengetahuan alam (IPA).
+            Komunitas Pelajar IPA saat ini memiliki perpustakaan di laman Perpustakaan Desa untuk sobat IPA belajar
+            tentang ilmu pengetahuan alam terutama Fisika, Biologi dan Kimia serta informasi umum seperti sejarah dan banyak lagi
+            Pelajar IPA juga memiliki event serta kegiatan untuk menunjukkan jika Ilmu Pengetahuan Alam itu asik. 
+       </h3>
+    </body>
+</html>

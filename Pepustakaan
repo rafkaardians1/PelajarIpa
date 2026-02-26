@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>PelajarIpa</title>
+    </head>
+    <style>
+        .logo {float: right;
+                margin-top: -22px;}
+        .event {text-align:left;
+                 margin-top: -450px;
+                margin-left: 660px;}
+    </style>
+        <nav>
+        <a href="beranda">Beranda</a>
+        <a href="Event">Event</a>
+        <a href="#">Pertempuran</a>
+        <a href="Pepustakaan">Perpustakaan</a>
+        <a href="Toko">Toko</a>
+        <a href="Tentang Kami">Tentang kami</a>
+        <div class="logo">
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece Pelajar Ipa" width="70px">
+    </nav>
+    <header>
+        <h1 style="text-align: center;">"Pendidikan adalah senjata paling mematikan di dunia,
+        karena dengan pendidikan kamu bisa mengubah dunia"
+        </h1>
+        <h1 style="text-align: center;">-Nelson Mandela</h1>
+    </header>
+    <style>
+        nav {background-color: rgb(126, 74, 7);
+            padding: 30px;
+        }
+        a {color: white;
+            margin: 20px; 
+            text-decoration: none;
+            font-size: 20px;
+        }
+        h1 {font-family: 'Times New Roman', Times, serif;
+    }
+        header {background-color: burlywood;
+                padding: 20px;
+
+        }
+        body {background-color:rgb(243, 234, 217);
+        }
+        </style>
+    <table border="1">
+        <tr style="height: 50px;"> 
+            <th colspan="5" bgcolor="green">Koleksi Perpustakaan Pelajar Ipa</th>
+        </tr>
+        <tr style="height: 50px;">
+            <td>No</td>
+            <td>Judul</td>
+            <td>Penyusun</td>
+            <td>Jenis Buku</td>
+            <td>link buku</td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>1</td>
+            <td>Pengertian Fisika, sejarah serta penerapannya</td>
+            <td>Rafka Ardian Saputra</td>
+            <td>Pendidikan</td>
+            <td><a href="Ruang Baca Fisika/Pengertian Fisika" style="color: blue">Baca Buku</a></td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>2</td>
+            <td>Vektor dan Skalar itu Asix</td>
+            <td>Rafka Ardian Saputra</td>
+            <td>Pendidikan</td>
+            <td><a href="#" style="color: blue;">Baca Buku</a></td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>3</td>
+            <td>10 Cabang ilmu Fisika</td>
+            <td>Rafka Ardian Saputra</td>
+            <td>Pendidikan</td>
+            <td><a href="#" style="color: blue;">Baca Buku</a></td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>4</td>
+            <td>Materi Fisika kelas 7: Besaran dan satuan</td>
+            <td>Rafka Ardian Saputra</td>
+            <td>pendidikan</td>
+            <td><a href="#" style="color: blue;">Baca buku</a></td>
+        </tr>
+        <tr style="height: 50px;">
+            <td>5</td>
+            <td>Materi Fisika kelas 7: Pengukuran</td>
+            <td>Rafka Ardian Saputra</td>
+            <td>Pendidikan</td>
+            <td><a href="#" style="color: blue;">Baca Buku</a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Besaran dan Satuan</td>
+            <td>Rafka Ardian Saputra</td>
+            <td>Pendidikan</td>
+            <td><a href="Ruang Baca Fisika/Besaran dan Satuan" style="color: blue;">Baca Buku</a></td>
+        </tr>
+    </table>
+    <style>
+        table {width: 100%;
+                height: 50px;}
+    </style>

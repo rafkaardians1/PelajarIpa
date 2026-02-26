@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Event PelajarIpa</title>
+    </head>
+    <style>
+        .logo {float: right;
+                margin-top: -22px;}
+    </style>
+    <nav>
+        <a href="beranda">Beranda</a>
+        <a href="Event">Event</a>
+        <a href="Pertempuran  Pelajar IPA">Pertempuran</a>
+        <a href="Pepustakaan">Perpustakaan</a>
+        <a href="Toko">Toko</a>
+        <a href="Tentang Kami">Tentang kami</a>
+        <div class="logo">
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece Pelajar Ipa" width="70px">
+    </nav>
+    <style>
+        nav {background-color: green;
+            padding: 30px;
+        }
+        a {color: white;
+            margin: 20px; 
+            text-decoration: none;
+            font-size: 20px;
+        }
+        body {background-color:rgb(243, 234, 217);
+        }
+    </style>
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+body{
+  overflow-x:hidden;
+}
+.Pembukaan{
+  height:95vh;
+  background:url('PelajarIpaFoto/EVENT\ IPA.png') center/cover no-repeat;
+  position: relative;
+  display:flex;
+  align-items:center;
+  padding-left: 5% ;
+  color:white;
+  overflow:hidden;
+}
+.Pembukaan::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.3);
+}
+.Pembukaan-content{
+  position:relative;
+  z-index:2;
+  max-width:500px;
+}
+.Pembukaan p {
+    font-size: 25px;
+}
+.Daunsurgawi{
+  position:absolute;
+  top: 0px;
+  width:20px;
+  height:20px;
+  background:linear-gradient(45deg,#4CAF50,#2e7d32);
+  border-radius:50% 0 50% 0;
+  opacity:0.9;
+  animation:fall linear infinite;
+  z-index:1;
+}
+@keyframes fall{
+  0%{
+    transform:translate(0,-50px) rotate(0deg);
+  }
+  50%{
+    transform:translate(40px,50vh) rotate(180deg);
+  }
+  100%{
+    transform:translate(-40px,110vh) rotate(360deg);
+  }
+}
+.section{
+  padding:100px 10%;
+  text-align:center;
+}
+.section h2{
+  font-size:2rem;
+  margin-bottom:30px;
+}
+    </style>
+</head>
+<body>
+    <section class="Pembukaan">
+        <div class="Pembukaan-content">
+            <p>“Rindu paling sunyi lahir dari kebiasaan kecil yang dulu terasa biasa saja.
+                Penyesalan paling dalam datang saat kita sadar waktu tak pernah menunggu.Dan 
+                kehilangan paling menyakitkan adalah ketika kesempatan itu hanya bisa dikenang, 
+                bukan diulang."<p>
+        </div>
+    </section>
+<script>
+const hero = document.querySelector(".Pembukaan");
+
+for(let i=0;i<25;i++){
+  const leaf = document.createElement("div");
+  leaf.classList.add("Daunsurgawi");
+
+  leaf.style.left = Math.random() * 100 + "vw";
+  leaf.style.animationDuration = 5 + Math.random() * 5 + "s";
+  leaf.style.animationDelay = Math.random() * 5 + "s";
+
+  hero.appendChild(leaf);
+}
+</script>
+<style>
+  .PapanMode{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+}
+.papan{
+  margin-right: auto;
+  width:100%;
+  height:120px;
+  background:#f5f5f5;
+  border-radius:15px;
+  transition:0.3s;
+  cursor:pointer;
+  text-align: center;
+  margin-top: 50px;
+}
+.papan:hover{
+  transform:scale(0.9);
+  background:#4CAF50;
+  color: bisque;
+  box-shadow: 0 0px 25px #4CAF50;}
+body {
+  background-color: #2e7d32;
+}
+.papan2 {
+  width: 400px;
+  height: 262px;
+  background-color: rgb(10, 145, 207);
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+  border: 1px;
+}
+.papan2:hover{
+  transform: scale(0.9);
+  background: #2e7d32;
+  color: bisque;
+  box-shadow: 0 0px 25px #4CAF50;
+}
+
+</style>
+<body>
+  <h1 style="text-align: center;">EVENT PELAJAR IPA</h1>
+</body>
+<body>
+  <div class="Gambar1" style="display: block;justify-content: center;">
+    <img src="PelajarIpaFoto/pertempuran kota ipa.png" style="width: 100%;height:450px;border: 1px 
+    black solid;">
+      <div class="papan" style="display: flex;justify-content: center;">
+            <h1 style="padding:5px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
+            sans-serif;font-size: 60px;">
+            PERTEMPURAN FEBRUARI X PELAJAR IPA</h1>
+      </div>
+  </div>
+</body>
+<body>
+      <div class="Gambar2" style="display: flex;justify-content: center;">
+        <img src="PelajarIpaFoto/pertempuran Fisika.png" style="height: 300px; width: 900px;padding: 20px;border-radius: 10px;">
+        <a href="Pertempuran  Pelajar IPA">
+          <div class="papan2" style="display: block;justify-content: center;">
+              <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 60px;
+              text-align: center;">
+              Pertempuran Fisika</h1>
+              <p style="font-size: 30px;text-align: left;">Pertempuran makin gemelegar dengan Meriam Parabola</p>
+          </div>
+        </a>
+      </div>
+    </body>
+    <body>
+      <div class="Gambar3" style="display: flex;justify-content: center;">
+        <a href="Pertempuran  Pelajar IPA">
+          <div class="papan2" style="display: block;justify-content: center;">
+            <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              font-size: 60px;">Pertempuran Biologi</h1>
+              <p style="font-size: 30px; text-align: right;">
+                Aliansi suku 5 Kingdom diserang, Kamu melawan tanpa gentar
+              </p>
+            </div>
+        </a>
+          <img src="PelajarIpaFoto/pertempuran biologi.png" style="height: 300px;width: 900px;padding: 20px;
+          border-radius: 10px;">
+      </div>
+    </body>
+    <body>
+    </body>
+</html>

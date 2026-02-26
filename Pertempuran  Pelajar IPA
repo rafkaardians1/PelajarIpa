@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>Pertempuran Pelajar IPA</title>
+    </head>
+    <style>
+        .logo {float: right;
+                margin-top: -22px;}
+    </style>
+        <nav>
+        <a href="beranda">Beranda</a>
+        <a href="Event">Event</a>
+        <a href="#">Pertempuran</a>
+        <a href="Pepustakaan">Perpustakaan</a>
+        <a href="Toko">Toko</a>
+        <a href="Tentang Kami">Tentang kami</a>
+        <div class="logo">
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece Pelajar Ipa" width="70px">
+    </nav>
+    <style>
+        nav {background-color: rgb(126, 74, 7);
+            padding: 30px;
+        }
+        a {color: white;
+            margin: 20px; 
+            text-decoration: none;
+            font-size: 20px;
+        }
+        h1 {font-family: 'Times New Roman', Times, serif;
+    }
+        header {background-color: burlywood;
+                padding: 20px;
+
+        }
+        body {background-color:rgb(243, 234, 217);
+        }
+    </style>
+    <style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+
+body{
+  overflow-x:hidden;
+}
+.Pembukaan{
+  height:95vh;
+  background:url('PelajarIpaFoto/PERANG UNTUK DESA.png') center/cover no-repeat;
+  position: relative;
+  display:flex;
+  align-items:center;
+  padding-left: 5% ;
+  color:white;
+  overflow:hidden;
+}
+.Pembukaan::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.3);
+}
+.Pembukaan-content{
+  position:relative;
+  z-index:2;
+  max-width:500px;
+}
+.Pembukaan p {
+    font-size: 25px;
+}
+.Daunsurgawi{
+  position:absolute;
+  top: 0px;
+  width:20px;
+  height:20px;
+  background:linear-gradient(45deg,#4CAF50,#2e7d32);
+  border-radius:50% 0 50% 0;
+  opacity:0.9;
+  animation:fall linear infinite;
+  z-index:1;
+}
+@keyframes fall{
+  0%{
+    transform:translate(0,-50px) rotate(0deg);
+  }
+  50%{
+    transform:translate(40px,50vh) rotate(180deg);
+  }
+  100%{
+    transform:translate(-40px,110vh) rotate(360deg);
+  }
+}
+.section{
+  padding:100px 10%;
+  text-align:center;
+}
+    </style>
+</head>
+<body>
+    <section class="Pembukaan">
+        <div class="Pembukaan-content">
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                "Kegagalan bukan akhir dari segalanya melainkan dimulainya kemajuan besar yang membawamu
+                menuju kesuksesan jika kamu mau belajar dari kegagalan itu"
+            </p>
+            <p style="font-family: 'Times New Roman', Times, serif;">
+                -Rafka Ardian Saputra
+            </p>
+        </div>
+    </section>
+</body>
